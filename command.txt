@@ -1,0 +1,2 @@
+sudo ansible-playbook -i inventory/hosts.localhost playbooks/prerequisites.yml -e 'ansible_python_interpreter=/usr/bin/python3'
+sudo dnf -y  install git wget  python3-dnf ansible
